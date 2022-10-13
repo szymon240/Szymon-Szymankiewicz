@@ -15,7 +15,7 @@ public:
 };
 
 void Bird::introduction(){
-    std::cout<<"jestem ptak i mam wiek: "<<  age <<std::endl;
+    std::cout<<"jestem ptak i mam: "<<  age <<" lat." <<std::endl;
 }
 
 void Bird::play(){

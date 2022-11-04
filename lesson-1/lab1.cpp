@@ -15,19 +15,19 @@ public:
 };
 
 void Bird::introduction(){
-    std::cout<<"jestem ptak i mam: "<<  age <<" lat." <<std::endl;
+    std::cout<<"I'm a bird and I'm "<<  age <<" years old." <<std::endl;
 }
 
 void Bird::play(){
-    std::cout<<"Ptak bawi się z "<<toyName.name<<std::endl;
+    std::cout<<"Bird is playing with "<<toyName.name<<std::endl;
 }
 
 int main() {
-    Bird ptak;
+    Bird bird;
     ptak.age = 2;
-    Toy zabawka;
-    zabawka.name = "pilka";
-    ptak.toyName = zabawka;
+    Toy toy;
+    zabawka.name = "ball";
+    ptak.toyName = toy;
     ptak.introduction();
     ptak.play();
     return 0;

@@ -16,7 +16,7 @@ public:
     }
 
     float avg() {
-        return (a+b)/2;
+        return (a+b)/2.0;
     }
 };
 
